@@ -1,8 +1,14 @@
-import { FaRegStar } from "react-icons/fa";
+import { FaStar } from "react-icons/fa";
+import styled from "styled-components";
+
+export const StarGold = styled(FaStar)`
+color: gold;
+font-size: 24px;
+`;
 
 const Star = () => {
     return (
-        <FaRegStar />
+        <StarGold />
     )
 }
 
