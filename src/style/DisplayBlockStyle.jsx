@@ -34,3 +34,7 @@ export const ImageLeft = styled.img`
   float: left;
 `;
 
+export const FaRegStar = styled.p`
+color: gold;
+`;
+
