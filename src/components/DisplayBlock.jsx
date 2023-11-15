@@ -1,7 +1,14 @@
 import React from "react";
 import cellbike from "/images/cellbike.jpeg"
-import { Container, ContentContainer, Title, SubTitle, ContainerUser , ImageLeft } from "../style/DisplayBlockStyle";
 import StarFull from '/public/icons/StarFull.jsx'
+import {
+    Container,
+    ContentContainer,
+    Title,
+    SubTitle,
+    ContainerUser,
+    ImageLeft
+} from "../style/DisplayBlockStyle";
 
 
 const Display = () => {
@@ -16,7 +23,7 @@ const Display = () => {
                 </SubTitle>
             </ContentContainer>
             <ContainerUser>
-            <StarFull />
+                <StarFull />
             </ContainerUser>
             <ImageLeft src={cellbike} />
         </Container>

@@ -13,15 +13,6 @@ export const ContentContainer = styled.div`
   max-width: 100%;
 `;
 
-export const ContainerUser = styled.div`
-font-size: 20px;
-display: block;
-  flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 100%;
-`;
-
-
 export const Title = styled.h1`
   font-size: 50px;
   margin-bottom: 8px;
@@ -43,4 +34,10 @@ export const ImageLeft = styled.img`
   float: left;
 `;
 
-
+export const ContainerUser = styled.div`
+font-size: 20px;
+display: block;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
+`;
