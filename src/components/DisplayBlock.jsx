@@ -1,6 +1,5 @@
 import React from "react";
 import cellbike from "/images/cellbike.jpeg"
-import StarFull from '/public/icons/StarFull.jsx'
 import {
     Container,
     ContentContainer,
@@ -23,7 +22,6 @@ const Display = () => {
                 </SubTitle>
             </ContentContainer>
             <ContainerUser>
-                <StarFull />
             </ContainerUser>
             <ImageLeft src={cellbike} />
         </Container>
