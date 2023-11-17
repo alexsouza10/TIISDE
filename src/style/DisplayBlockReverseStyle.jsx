@@ -1,33 +1,35 @@
 import styled from "styled-components";
 
 export const ContainerReverse = styled.div`
-background-color: #e1dfdf;
-  color: blue;
-  display: flex;
-  align-items: center;
-  padding: 5px; /* Increased padding for better spacing */
+color: #000000;
+display: flex;
+padding: 20px; 
 `;
 
 export const ContentContainerReverse = styled.div`
- display: flex;
+display: block;
   flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
 `;
 
 export const TitleReverse = styled.h1`
-  font-size: 30px;
-  margin-bottom: 8px;
+font-size: 50px;
+margin-bottom: 8px;
 `;
 
 export const SubTitleReverse = styled.h3`
- font-size: 10px;
-  margin-bottom: 8px;
+font-size: 15px;
+color: #595959;
+margin-bottom: 8px;
 `;
 
 export const ImageRight = styled.img`
-  width: 100%;
-  max-width: 50%;
-  height: auto;
-  margin-left: 30px;
-  border-radius: 20px;
-  border: 2px solid #000000; /* Add a white border for better visibility */
+width: 100%;
+max-width: 50%;
+height: auto;
+right: 35%;
+border-radius: 20px;
+border: 1px solid #000000;
+float: left;
 `;

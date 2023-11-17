@@ -7,10 +7,10 @@ const DisplayReverse = () => {
         <ContainerReverse>
             <ContentContainerReverse>
                 <TitleReverse>
-                    Hire Expert Mobile App Developers
+                    Experienced and skilled developers
                 </TitleReverse>
                 <SubTitleReverse>
-                    Build high-quality and user-friendly mobile applications for iOS and Android with our team of skilled mobile software engineers
+                    Our team of mobile software engineers  are highly experienced and skilled in developing mobile aplications for both iOS and Android plataforms. They have a deep understandig of the latest technologies and best pratices in mobile app development.
                 </SubTitleReverse>
                 <ImageRight src={cellblack} />
             </ContentContainerReverse>
