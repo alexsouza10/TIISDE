@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const ContainerReverse = styled.div`
+display: flex;
+justify-content: center;
 position: relative;
 color: #000000;
-display: flex;
 padding: 20px; 
 `;
 
 export const ContentContainerReverse = styled.div`
-
-display: block;
+  display: flex;
   flex-direction: column;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 100%;
+  margin: 40px;
 `;
 
 export const TitleReverse = styled.h1`
